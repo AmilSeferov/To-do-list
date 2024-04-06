@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    justify-content: center;
+   margin: 100px;
+}
+.container{
+    width: 340px;
+    border: 1px solid #C4C4C4;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    background-color: #f5f5f5;
+}
+.yellow{
+    width: 100%;
+    height: 30px; ;
+background-color: yellow;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+}
+h1{
+    margin: 10px;
+    font-size: 26px;
+align-self: center;
+    font-weight: bold;
+    font-family:Roboto ;
+}
+.content{
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.sort-button{
+    width: 25px;
+    border: 0;
+    height: 15px;
+    align-self: flex-end;
+    background-position: center;
+    margin: 5px 20px;
+}
+ul{
+    list-style: none;
+    width: 100%;
+}
+input{
+    border: 0;
+    justify-self: center;
+background-color: #f5f5f5;
+
+}
+.list{
+    width: 280px;
+    border: 3px solid #C4C4C4;
+background-color: #f5f5f5;
+display: flex;
+align-self: center;
+border-radius: 10px;
+}
+.list-remove{
+background-color: #f5f5f5;
+border: 0;
+
+}
+li{
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.div-add{
+   margin: 10px;
+    width: 150px;
+    height: 40px;
+    background-color: #833AE0;
+    border-radius: 20px;
+    align-self: center;
+    color:white;
+
+}
+.div-add > button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #9953F1;
+    border: 0;
+    color:white;
+
+}
+.span-add{
+    margin-left: 20px;
+}
