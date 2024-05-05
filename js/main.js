@@ -41,6 +41,7 @@ add.addEventListener('dblclick', function e() {
 
         })
         add.removeEventListener('click', e);
+        input.value=''
        
     }
 
